@@ -1,0 +1,90 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.blog-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.blog-header h1 {
+  font-size: 2.5rem;
+  color: #f39c12;
+}
+
+.blog-header .subtitle {
+  color: #cccccc;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.blog-post h2 {
+  margin-top: 30px;
+  font-size: 2.75rem;
+  color: #f1c40f;
+}
+
+.blog-post p {
+  margin-top: 15px;
+  font-size: 2rem;
+  color: #e0e0e0;
+}
+
+.blog-post ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.blog-post ul li {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.blog-post a {
+    color: #f1c40f;
+    font-weight: bold;
+}
+.blog-post a:hover {
+    color: #fffb00;
+}
+
+.blog-footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .blog-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog-post h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog-post p,
+  .blog-post ul li {
+    font-size: 0.95rem;
+  }
+}
